@@ -1,0 +1,21 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "koa": "^1.2.0",
+    "koa-basic-auth": "^1.1.2",
+    "koa-http-request": "^1.0.1",
+    "koa-router": "^5.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node index.js --harmony",
+    "watch": "supervisor index.js",
+    "request": "node request.js --harmony"
+  },
+  "author": "",
+  "license": "ISC"
+}
